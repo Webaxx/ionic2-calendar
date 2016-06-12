@@ -1,0 +1,25 @@
+.page1 {
+
+  scroll-content{
+      padding: 0px;
+  }
+  ion-card-header{
+    background : color($colors, bluedark);
+    color:white;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  label{
+    width: 80px;
+    display: inline-block;
+    font-weight: bold;
+  }
+
+  button{
+    margin-bottom: 10px;
+  }
+
+  ion-card{
+    margin-bottom: 30px;
+  }
+}

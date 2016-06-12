@@ -1,0 +1,42 @@
+<ion-navbar *navbar bluelight>
+  <ion-title>Webaxx calendar</ion-title>
+</ion-navbar>
+
+<ion-content padding class="page1">
+  <ion-card>
+    <ion-card-header>
+      Create event
+    </ion-card-header>
+    <ion-card-content>
+      <p>
+        <label>Title : </label>
+        {{title}}
+      </p>
+      <p>
+        <label>Start date : </label>
+        {{startDate | date:'dd/MM/yy HH:mm'}}
+      </p>
+      <p>
+        <label>End date : </label>
+        {{endDate | date:'dd/MM/yy HH:mm'}}
+      </p>
+      <p>
+        <label>Note : </label>
+        {{note}}
+      </p>
+    </ion-card-content>
+  </ion-card>
+
+  <button fab fab-bottom fab-left bluedark (click) = "createEvent()">
+    <ion-icon ios="ios-alarm" md="md-alarm"></ion-icon>
+  </button>
+
+  <button fab fab-bottom fab-center bluedark (click) = "openCalendar()">
+    <ion-icon ios="ios-calendar" md="md-calendar"></ion-icon>
+  </button>
+
+  <button fab fab-bottom fab-right bluedark (click) = "deleteEvent()">
+    <ion-icon ios="ios-trash" md="md-trash"></ion-icon>
+  </button>
+
+</ion-content>
