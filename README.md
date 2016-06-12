@@ -1,5 +1,5 @@
-# ionic2-geolocation
-Using geolocation with Ionic 2
+# ionic2-calendar
+Using calendar with Ionic 2
 
 ### Check out the tutorial on the site
 http://webaxx.fr/ionic-2/tutoriel-ionic-2-calendar/
